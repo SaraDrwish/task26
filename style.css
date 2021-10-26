@@ -17,6 +17,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    flex-wrap: wrap;
 }
 
 a{
@@ -30,8 +32,7 @@ a{
 
 .item_box .itemimg{
     overflow: hidden;
-    position: relative;
- 
+    position: relative; 
 }
 
 .item_box .itemimg img{
